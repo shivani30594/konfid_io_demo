@@ -24,8 +24,18 @@ Install npm by executing below command:
 #### npm install
 Start npm by executing the command:
 #### npm start
-Test the application using below command:
-#### npm run test
+Also start the API using below comman
+#### node run api
+
+## You may check the testing username and password from the data.js file. Also, mentioned as below:
+      {
+        'name': 'shivani',
+        'password': 'success2019'
+      },
+      {
+        'name': 'mark',
+        'password': 'success2020'
+      }
 
 
 
