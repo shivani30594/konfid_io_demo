@@ -20,7 +20,7 @@ export default class ProductList extends React.Component {
 	render() {
 		const { products } =  this.state;
 		return (
-			<div className=" container">
+			<div className="container">
 				<h3 className="card-title">List of Available Products</h3>
 				<hr/>
 				{

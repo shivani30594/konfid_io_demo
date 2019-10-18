@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
+.card-body {
+  -webkit-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.52);
+  -moz-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.52);
+  box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.52);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card .card-title {
+  color: #17a2b8;
 }
-
-.App-link {
-  color: #09d3ac;
+.card-image {
+  height:200px;
+  width:200px;
+}
+.border-left {
+  border-left: 1px solid #dee2e6 !important;
+}
+.available-quanity-span {
+  color:red;
+  font-size: 15px;
+  font-weight: bold;
 }

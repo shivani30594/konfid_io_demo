@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card-body {
+  -webkit-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.52);
+  -moz-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.52);
+  box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.52);
+}
